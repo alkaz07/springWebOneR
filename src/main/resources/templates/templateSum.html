@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>T3</title>
+</head>
+<body>
+<form action="addition">
+    <input type="number" name="a">первое число</input>
+    <input type="number" name="b">число b</input>
+
+    <button type="submit">+</button>
+</form>
+результат сложения: <span th:text = "${result}"></span>
+</body>
+</html>

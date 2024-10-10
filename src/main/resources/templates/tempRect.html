@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Rect</title>
+</head>
+<body>
+Введите стороны прямоугольника
+<form action="rectangles">
+  <p>  <input type="number" name="a"> ширина</input>
+   </p>
+  <p>  <input type="number" name="b"> длина</input>
+  </p>
+  Узнайте площадь и периметр прямоугольника
+  <p> <button type="submit">Сount</button>
+  </p>
+</form>
+<p>
+Площадь: <span th:text = "${result}"></span>
+<p>Периметр:
+</p>
+</body>
+</html>
